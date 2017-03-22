@@ -47,17 +47,17 @@ together with a few basic examples.
 
 Install the module:
 
-    $ pip install ./{{ cookiecutter.xtensor-example-extension }}/
+    $ pip install ./{{ cookiecutter.github_project_name }}/
 
 
 If you have [Jupyter](jupyter.org), run the [Test_Run notebook](http://nbviewer.jupyter.org/github/QuantStack/xtensor-cookiecutter/blob/master/Test_Run.ipynb):
 
-    $ cd {{ cookiecutter.xtensor-example-extension }}/{{ cookiecutter.python_package_name }}
+    $ cd {{ cookiecutter.github_project_name }}
     $ jupyter notebook
 
 Otherwise just run the test script:
 
-    $ cd {{ cookiecutter.xtensor-example-extension }}/{{ cookiecutter.python_package_name }}
+    $ cd {{ cookiecutter.github_project_name }}
     $ python Test_Run.py
 
 
