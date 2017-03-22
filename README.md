@@ -44,6 +44,18 @@ This will produce a directory containing all the required content for a minimal 
 project making use of xtensor with all the required boilerplate for package management,
 together with a few basic examples.
 
+If you have [jupyter](jupyter.org), run the [Test_Run](http://nbviewer.jupyter.org/github/QuantStack/xtensor-cookiecutter/blob/master/Test_Run.ipynb) notebook:
+
+    $ cd {{ cookiecutter.xtensor-example-extension }}
+    $ jupyter notebook
+
+Otherwise just run the test script:
+
+    $ cd {{ cookiecutter.xtensor-example-extension }}
+    $ python test_run.py
+
+
+
 ## More information
 
 - [Documentation of xtensor](https://xtensor.readthedocs.io/en/latest/)
