@@ -4,7 +4,7 @@
 # In[1]:
 
 import numpy as np
-import {{ cookiecutter.xtensor_example_extension }} as xt
+import {{ cookiecutter.python_package_name }} as xt
 
 from IPython.display import display
 
